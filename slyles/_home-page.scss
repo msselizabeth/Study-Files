@@ -1,0 +1,36 @@
+
+.home-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.home-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    
+
+}
+
+.home-list-item__link {
+    display: block;
+
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    width: 280px;
+    height: 60px;
+    border: solid 1px grey;
+    border-radius: 10px;
+
+    color: grey;
+
+    font-size: 24px;
+
+    &:hover {
+            color: orangered;
+            border-color: orangered;
+        }
+}

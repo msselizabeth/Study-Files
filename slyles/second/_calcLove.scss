@@ -1,0 +1,53 @@
+.box-love {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-love {
+    padding: 9px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+.form-love {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    margin-top: 30px;
+}
+
+.title-love {
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(111, 6, 6);
+}
+
+.result-love {
+    font-size: 18px;
+    color: rgb(111, 6, 6);
+}
+
+.btn-love {
+    width: 100px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: transparent;
+    color: gray;
+    padding: 5px;
+
+    font-size: 15px;
+
+    &:hover{
+    color: orangered;
+    border-color: orangered;
+    }
+}
+.btn-love-again {
+    width: 170px;
+    font-size: 14px;
+}

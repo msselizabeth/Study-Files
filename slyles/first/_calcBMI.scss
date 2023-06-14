@@ -1,0 +1,51 @@
+.form-BMI {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    margin-top: 30px;
+}
+
+.form-input-BMI {
+    padding: 9px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+.title {
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(51, 47, 47);
+
+    text-align: center;
+}
+.box-BMI {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-BMI {
+    font-size: 20px;
+    color: rgb(91, 88, 88);
+}
+
+.btn-BMI {
+    width: 170px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: transparent;
+    color: gray;
+    padding: 5px;
+
+    font-size: 16px;
+
+    &:hover {
+    color: orangered;
+    border-color: orangered;
+    }
+}

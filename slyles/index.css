@@ -1,0 +1,167 @@
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.home-link {
+  display: block;
+  width: 120px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.home-link:hover {
+  color: orangered;
+  border-color: orangered;
+}
+
+.home-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.home-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.home-list-item__link {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 60px;
+  border: solid 1px grey;
+  border-radius: 10px;
+  color: grey;
+  font-size: 24px;
+}
+.home-list-item__link:hover {
+  color: orangered;
+  border-color: orangered;
+}
+
+.form-BMI {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 280px;
+  margin-top: 30px;
+}
+
+.form-input-BMI {
+  padding: 9px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.title {
+  font-size: 25px;
+  margin-top: 20px;
+  color: rgb(51, 47, 47);
+  text-align: center;
+}
+
+.box-BMI {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-BMI {
+  font-size: 20px;
+  color: rgb(91, 88, 88);
+}
+
+.btn-BMI {
+  width: 170px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: transparent;
+  color: gray;
+  padding: 5px;
+  font-size: 16px;
+}
+.btn-BMI:hover {
+  color: orangered;
+  border-color: orangered;
+}
+
+.box-love {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-love {
+  padding: 9px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-love {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 280px;
+  margin-top: 30px;
+}
+
+.title-love {
+  font-size: 25px;
+  margin-top: 20px;
+  color: rgb(111, 6, 6);
+}
+
+.result-love {
+  font-size: 18px;
+  color: rgb(111, 6, 6);
+}
+
+.btn-love {
+  width: 100px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: transparent;
+  color: gray;
+  padding: 5px;
+  font-size: 15px;
+}
+.btn-love:hover {
+  color: orangered;
+  border-color: orangered;
+}
+
+.btn-love-again {
+  width: 170px;
+  font-size: 14px;
+}/*# sourceMappingURL=index.css.map */
